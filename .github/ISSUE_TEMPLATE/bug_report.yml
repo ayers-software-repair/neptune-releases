@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in Neptune is broken
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Neptune version
+      description: Shown in the admin console footer and in the client's settings screen.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Where does it happen?
+      options:
+        - Server
+        - Admin console
+        - Android TV / Fire TV client
+        - Windows client
+        - Another client
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and OS version
+      placeholder: "Fire TV Stick 4K, Fire OS 8 / Windows 11 / Ubuntu 24.04"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Server log lines, client log excerpts, or a screenshot if visual.
