@@ -1,21 +1,19 @@
-# Neptune
+<p align="center"><img src="neptune-mark.png" width="180" alt=""></p>
 
-Your movies and shows as live TV channels, on your own hardware. Free and private.
+<h1 align="center">NEPTUNE</h1>
 
-## Download
+<p align="center">Your movies and shows as live TV channels, on your own hardware. Free and private.</p>
 
-- Windows: [server .zip](../../releases/latest/download/Neptune-Server-Windows.zip)
-- Linux: [x64 .zip](../../releases/latest/download/Neptune-Server-Linux-x64.zip) or [ARM64 .zip](../../releases/latest/download/Neptune-Server-Linux-arm64.zip)
-- macOS: [Apple Silicon .zip](../../releases/latest/download/Neptune-Server-macOS-arm64.zip) or [Intel .zip](../../releases/latest/download/Neptune-Server-macOS-x64.zip)
+## Neptune Server
 
-See [all releases](../../releases).
+Runs your library as live TV channels with a real guide, plus on demand.
 
-The Neptune server runs your own movie and show library as live TV channels with a real guide,
-plus on demand. One program: library, metadata, channels, guide, subtitles, downloads - connected
-on the inside, no runtime to install, ffmpeg included. Clients for Android TV, Fire TV, and
-Windows connect to it; Apple TV, iPhone, iPad, and Mac follow through their stores. It runs on
-your own hardware. Nothing goes to the cloud.
+[Windows](../../releases/latest/download/Neptune-Server-Windows.zip) &middot;
+[Linux](../../releases/latest/download/Neptune-Server-Linux-x64.zip) &middot;
+[Linux on ARM](../../releases/latest/download/Neptune-Server-Linux-arm64.zip) &middot;
+[Mac with Apple Silicon](../../releases/latest/download/Neptune-Server-macOS-arm64.zip) &middot;
+[Mac with an Intel chip](../../releases/latest/download/Neptune-Server-macOS-x64.zip)
 
 ## Something broken?
 
-Open an [issue](../../issues/new/choose).
+[Tell us.](../../issues/new/choose)
